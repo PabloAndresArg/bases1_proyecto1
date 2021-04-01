@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77EC581D-C36B-1125-EF61-52265049891E" name="Eleccion Partido">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>56CB12FF-9232-D65B-0A54-58D743994224</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2397B2FF-8997-D2AD-6E7F-D0BD66517916">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>86B5B05C-F30C-7CF9-CF69-E0D957C74B2D</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Eleccion id" id="D9D17E89-FDF4-67F6-6F17-D6F213241181">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>8AFB83D3-AB89-98EB-0AA3-84AAACE4A326</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<referedAttribute>2B29265E-32D0-07F4-E933-FA2FCB00504E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Partido id" id="8E26F6AC-7F76-9A8A-50C0-C8989A0DB37A">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>7FD7C68A-5EEC-8CCC-6443-54DBDFB43645</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<referedAttribute>068C4DAE-1FBE-8A3D-4853-2F3AC67582B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F45A259-256F-A2B7-692C-3C5B41171B5D" name="Eleccion Partido PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>35F34193-265C-8D5F-6B90-592B73DFC570</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2397B2FF-8997-D2AD-6E7F-D0BD66517916</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

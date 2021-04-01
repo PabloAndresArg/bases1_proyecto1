@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56CB12FF-9232-D65B-0A54-58D743994224" name="Eleccion_Partido">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:42:29 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="86B5B05C-F30C-7CF9-CF69-E0D957C74B2D">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:51:55 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eleccion_id" id="7BEB2D38-E4C3-E983-B6DC-E255B5B2B0FD">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:21:10 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA10B351-6B50-EE33-D6E3-CFA3D6AEC8C2" referredColumn="90928949-7197-2EE9-7812-660A446CF40F"/>
+</associations>
+</Column>
+<Column name="Partido_id" id="CBB57680-9296-5129-F4AE-293EFB83F0ED">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:21:14 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E31A6B1-109F-E8D0-C0DE-C65521F82572" referredColumn="307C80F3-E5B0-24ED-323C-5BAC4D86DAAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35F34193-265C-8D5F-6B90-592B73DFC570" name="Eleccion_Partido_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:10 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86B5B05C-F30C-7CF9-CF69-E0D957C74B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DC44FCF-1BDA-6653-EDA7-096B88A3FA95" name="Eleccion_Partido_Eleccion_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:21:10 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BEB2D38-E4C3-E983-B6DC-E255B5B2B0FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5350ED61-C148-84CF-7766-4B1AA347E3C6" name="Eleccion_Partido_Partido_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:21:14 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBB57680-9296-5129-F4AE-293EFB83F0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

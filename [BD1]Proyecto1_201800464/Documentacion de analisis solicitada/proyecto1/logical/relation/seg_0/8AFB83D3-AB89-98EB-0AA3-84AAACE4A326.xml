@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Eleccion_Partido_Eleccion_FK" directorySegmentName="seg_0" id="8AFB83D3-AB89-98EB-0AA3-84AAACE4A326">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>FA10B351-6B50-EE33-D6E3-CFA3D6AEC8C2</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<sourcePk>09E07966-EE40-A2F1-6E03-1577C6FD4C02</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B47CEFA5-2BBA-DE61-A7FB-91443FBAB39C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>77EC581D-C36B-1125-EF61-52265049891E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

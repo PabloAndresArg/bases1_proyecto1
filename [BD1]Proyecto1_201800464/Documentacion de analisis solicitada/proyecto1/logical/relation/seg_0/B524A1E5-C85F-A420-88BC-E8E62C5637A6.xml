@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Conteo_Voto_Raza_FK" directorySegmentName="seg_0" id="B524A1E5-C85F-A420-88BC-E8E62C5637A6">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>E42EF4D2-AC86-32D0-0B32-C433EE9168BD</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<sourcePk>1BFDDB90-4B2A-2623-8C85-B44B907074F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A0F3EADC-E5B5-75D5-76F1-BF677E6BDCCA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D3F382A-3D54-10E2-1C64-5139E21E55AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

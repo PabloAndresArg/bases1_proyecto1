@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71636566-714A-8BE7-ED7D-E1DA801BBAE0" name="Partido">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:42:41 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="307C80F3-E5B0-24ED-323C-5BAC4D86DAAE">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:52:32 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partido" id="E835C46E-759E-7B78-F293-00B6CDF53038">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:52:43 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F3FF49EF-8E69-B080-4985-367CACD991B1">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:57:43 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01405983-6E2D-737F-441B-C459504153F2" name="Partido_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:52:32 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="307C80F3-E5B0-24ED-323C-5BAC4D86DAAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

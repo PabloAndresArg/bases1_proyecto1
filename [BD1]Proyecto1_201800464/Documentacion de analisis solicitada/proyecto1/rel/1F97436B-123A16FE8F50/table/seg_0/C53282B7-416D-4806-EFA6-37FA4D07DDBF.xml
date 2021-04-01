@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C53282B7-416D-4806-EFA6-37FA4D07DDBF" name="Conteo_Voto">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:42:09 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B3EFF3DF-2414-0462-56C9-B93770AE775A">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:49:25 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alfabetos" id="703AD4B8-A37A-7176-30C5-060A82231F07">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:58:16 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analfabetos" id="BBC18978-95E4-28AE-3288-4D743C58E32E">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:58:39 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primaria" id="0D818070-E5CF-8858-D802-99ECE78FD844">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:58:39 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_medio" id="444A733C-CE22-5FDB-97C4-1467507EB608">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:58:56 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="universitarios" id="E991107D-ECD5-B014-35BE-25AA9060CB4D">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:59:09 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo_id" id="3093695B-8191-89DF-0DFD-B53EBD011E77">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:28 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="451604A4-F9DC-D549-C9DF-350372A981B2" referredColumn="166AD41C-BBE8-A6B7-4841-2894E3CACA24"/>
+</associations>
+</Column>
+<Column name="Municipio_id" id="8D138868-825E-34F2-3163-C928337FB3E5">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:34 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="147354BD-4BA6-1450-EBC5-0D8F0698D56F" referredColumn="015DA4F9-3AC8-9FEB-54DF-78425F6EC9E2"/>
+</associations>
+</Column>
+<Column name="Raza_id" id="7A94C425-D53C-6E2B-33E4-3D234E81A87A">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:39 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42EF4D2-AC86-32D0-0B32-C433EE9168BD" referredColumn="B5325269-F3D0-3D81-56F0-D65806CDF08F"/>
+</associations>
+</Column>
+<Column name="Eleccion_Partido_id" id="602B39B4-B68F-ADE5-E313-69B101BC2F6C">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-30 02:23:53 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83AB70A0-1446-3E0B-1F7D-08454F1FF727" referredColumn="86B5B05C-F30C-7CF9-CF69-E0D957C74B2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79F0EE74-169C-6C16-8BD7-22A538B54120" name="ConteoVoto_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:49:25 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3EFF3DF-2414-0462-56C9-B93770AE775A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11334027-B444-A350-FD4F-25EF22704F37" name="Conteo_Voto_Sexo_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:28 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3093695B-8191-89DF-0DFD-B53EBD011E77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFE28DAF-6525-FB61-DA8E-E78197135661" name="Conteo_Voto_Municipio_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:34 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D138868-825E-34F2-3163-C928337FB3E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29799BC7-0BF7-EB5E-8BD6-F71B9FBD1F09" name="Conteo_Voto_Raza_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:39 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A94C425-D53C-6E2B-33E4-3D234E81A87A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58A455EC-28D3-1921-1859-96968058F36E" name="Conteo_Voto_Eleccion_Partido_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-30 02:23:53 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="602B39B4-B68F-ADE5-E313-69B101BC2F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

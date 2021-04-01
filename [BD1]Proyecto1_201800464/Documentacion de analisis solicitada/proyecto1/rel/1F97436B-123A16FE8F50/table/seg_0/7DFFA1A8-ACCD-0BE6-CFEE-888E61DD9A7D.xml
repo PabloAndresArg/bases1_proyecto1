@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DFFA1A8-ACCD-0BE6-CFEE-888E61DD9A7D" name="Municipio">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:41:53 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="015DA4F9-3AC8-9FEB-54DF-78425F6EC9E2">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:47:56 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E297613E-1EDC-F8B2-1337-C486417E77F4">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:48:23 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_id" id="AD8BAFBF-E52A-9A23-6BBE-C83740E9F5CA">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:14 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEA19EB2-4F07-B0B6-5EBB-8A95433DCC2E" referredColumn="42ADB1AB-3368-4E33-0ABE-FA8E6FD4B3A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF96F604-BE30-6CC2-1946-B1FE2C11E6B1" name="Municipio_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:48:10 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015DA4F9-3AC8-9FEB-54DF-78425F6EC9E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FEE7FC2-379C-FB00-D272-59418F8F852B" name="Municipio_Departamento_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:14 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD8BAFBF-E52A-9A23-6BBE-C83740E9F5CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

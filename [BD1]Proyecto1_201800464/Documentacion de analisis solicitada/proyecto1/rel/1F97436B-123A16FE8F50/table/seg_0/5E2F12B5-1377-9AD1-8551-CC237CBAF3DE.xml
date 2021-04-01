@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E2F12B5-1377-9AD1-8551-CC237CBAF3DE" name="Region">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:41:28 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0A20DE3B-203C-39E2-0AF2-B26D9354EF76">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:43:10 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3A3D3733-44A7-3AED-2837-4573973AAB56">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:43:28 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_id" id="7A0D061A-5073-ECE9-6AFA-6D7C3541FC3A">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:22 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F420B5E1-6FAE-4301-29CC-295654F628E5" referredColumn="C2EE97F7-8180-59D1-4CCA-39EA0C16B674"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="020953F5-51F6-D7AD-A1C6-7DED53D6248E" name="Region_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:43:11 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A20DE3B-203C-39E2-0AF2-B26D9354EF76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C4CD347-80EA-74AA-104F-83C8AE098255" name="Region_Pais_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:20:22 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A0D061A-5073-ECE9-6AFA-6D7C3541FC3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

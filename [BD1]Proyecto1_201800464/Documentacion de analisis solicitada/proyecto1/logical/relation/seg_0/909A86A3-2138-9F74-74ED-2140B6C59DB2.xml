@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Conteo_Voto_Municipio_FK" directorySegmentName="seg_0" id="909A86A3-2138-9F74-74ED-2140B6C59DB2">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>147354BD-4BA6-1450-EBC5-0D8F0698D56F</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<sourcePk>8E477C59-DF50-6309-2CF4-F112844CD36E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BB8AF90-FF83-3724-D3E8-855CBA113856</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D3F382A-3D54-10E2-1C64-5139E21E55AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

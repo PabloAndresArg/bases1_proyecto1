@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="421631BB-412E-2AF4-5807-8F6C33A7EDAE" name="Departamento">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:41:43 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="42ADB1AB-3368-4E33-0ABE-FA8E6FD4B3A1">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:44:37 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="75F8EDCB-7536-B42A-CB81-382B336A969C">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:46:43 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_id" id="C3843C81-152D-FDA4-98BA-1315CFF32C67">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:59:27 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02C03AC3-E8B2-34A4-D9B4-61304D46915C" referredColumn="0A20DE3B-203C-39E2-0AF2-B26D9354EF76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7372A83-1730-5026-E8F5-C1B204D1C48E" name="Departamento_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:19:58 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42ADB1AB-3368-4E33-0ABE-FA8E6FD4B3A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="495DC2C0-DAE1-450E-9806-2030A471AB70" name="Departamento_Region_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:59:27 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3843C81-152D-FDA4-98BA-1315CFF32C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

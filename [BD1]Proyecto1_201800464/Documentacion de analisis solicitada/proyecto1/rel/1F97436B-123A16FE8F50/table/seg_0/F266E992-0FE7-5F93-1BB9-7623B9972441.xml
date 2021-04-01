@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F266E992-0FE7-5F93-1BB9-7623B9972441" name="Eleccion">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:42:25 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="90928949-7197-2EE9-7812-660A446CF40F">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:51:14 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="271DC2E2-C1D0-6FD2-FAB2-66DB44FFD369">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:51:26 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="6A193FE8-C710-3CDE-0E5D-165C20C70FF4">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 19:51:39 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFE5CF98-A34F-C9B2-CC83-D8BF603BB810" name="Eleccion_PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:21:07 UTC</createdTime>
+<ownerDesignName>proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90928949-7197-2EE9-7812-660A446CF40F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

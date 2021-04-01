@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Conteo_Voto_Sexo_FK" directorySegmentName="seg_0" id="990F7D23-6B25-7ED5-9731-56961F1F8800">
+<createdBy>Pablo</createdBy>
+<createdTime>2021-03-29 20:30:54 UTC</createdTime>
+<generatorID>451604A4-F9DC-D549-C9DF-350372A981B2</generatorID>
+<ownerDesignName>proyecto1</ownerDesignName>
+<engineerTo>
+<item key="1F97436B-040A-600F-A4DC-123A16FE8F50" value="true"/>
+</engineerTo>
+<sourcePk>1E63F180-985E-9DEC-2811-79FD78568BF1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AA10CBD-5DD9-E236-E336-69DD2A0B5FA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D3F382A-3D54-10E2-1C64-5139E21E55AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
